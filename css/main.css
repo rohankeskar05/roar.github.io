@@ -3,6 +3,10 @@ body {
     width: 80%;
     background-image: url('../images/back.jpg');
 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -32,7 +36,11 @@ header .highlight, header .current a{
 }
 a {
     text-decoration: none;
+
     color: #302a2a;
+=======
+
+
 }
  a:hover {
      color: rgb(59, 65, 73);
@@ -41,11 +49,12 @@ a {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #fffafa
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #fffafa;
 }
 footer {
     border-top: 1px solid #d5d5d5;
